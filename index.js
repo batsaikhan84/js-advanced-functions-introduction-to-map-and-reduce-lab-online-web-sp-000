@@ -20,3 +20,5 @@ function reduceToTotal(sourceArray, startingPoint = 0) {
     }, 0)
     return sum + startingPoint
 }
+
+
