@@ -21,4 +21,7 @@ function reduceToTotal(sourceArray, startingPoint = 0) {
     return sum + startingPoint
 }
 
+function reduceToAllTrue(sourceArray) {
+  sourceArray.reduce()
+}
 
