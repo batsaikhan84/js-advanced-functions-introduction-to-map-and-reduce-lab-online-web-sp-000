@@ -22,6 +22,8 @@ function reduceToTotal(sourceArray, startingPoint = 0) {
 }
 
 function reduceToAllTrue(sourceArray) {
-  sourceArray.reduce((boolean, number) => number === true || boolean, true)
+  sourceArray.reduce(a, b) => {
+    return 
+  }
 }
 
