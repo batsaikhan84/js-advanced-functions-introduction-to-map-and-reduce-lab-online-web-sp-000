@@ -26,6 +26,6 @@ function reduceToAllTrue(sourceArray) {
 }
 
 function reduceToAnyTrue(sourceArray) {
-  return sourceArray.reduce((a, b) => a && Boolean(b), false)
+  return sourceArray.reduce((a, b) => a || Boolean(b), false)
 }
 
